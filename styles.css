@@ -200,3 +200,65 @@ h1 strong{color:var(--coral)}
   .schedule-item{grid-template-columns:72px 1fr;gap:12px;padding:17px}
   .time{font-size:19px}
 }
+@media (max-width: 700px) {
+
+  .header {
+    height: 68px;
+  }
+
+  .wrap {
+    width: calc(100% - 28px);
+  }
+
+  .brand-logo {
+    width: 82px;
+    max-height: 45px;
+  }
+
+  .brand-divider {
+    font-size: 22px;
+  }
+
+  .brand-text {
+    font-size: 10px;
+  }
+
+  .brand-text strong {
+    font-size: 11px;
+  }
+
+  .hamb {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+    position: absolute;
+    top: 68px;
+    left: 0;
+    right: 0;
+
+    background: white;
+    padding: 15px;
+
+    flex-direction: column;
+    align-items: stretch;
+    gap: 5px;
+
+    border-bottom: 1px solid #e5e8ef;
+    box-shadow: 0 15px 30px rgba(7, 31, 82, .10);
+  }
+
+  .menu.open {
+    display: flex;
+  }
+
+  .menu a {
+    padding: 12px 10px;
+  }
+
+  .menu .cta {
+    text-align: center;
+    margin-top: 5px;
+  }
+}
