@@ -1,235 +1,47 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Foro Voces por la Salud Mental - Universidad Autónoma del Estado de Hidalgo">
-  <title>Foro: Voces por la Salud Mental | UAEH</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-<header class="site-header">
-  <div class="header-inner">
-    <div class="brand">UAEH <span>·</span> Voces por la Salud Mental</div>
-    <nav>
-      <a href="#inicio">Inicio</a>
-      <a href="#programa">Programa</a>
-      <a href="#ponentes">Ponentes</a>
-      <a href="#streaming">Streaming</a>
-      <a class="nav-register" href="#registro">Registra aquí</a>
-    </nav>
-  </div>
-</header>
-
+<!doctype html><html lang="es"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#071f52"><meta name="description" content="Foro Voces por la Salud Mental · Universidad Autónoma del Estado de Hidalgo">
+<title>Voces por la Salud Mental | UAEH</title>
+<style>
+:root{--n:#071f52;--b:#438de8;--g:#f6b51c;--c:#f1664e;--t:#138986;--p:#5a4a9b;--gr:#8fc56a;--ink:#17202c;--mut:#687383;--bg:#f6f8fc;--line:#e3e7ee}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:76px}body{margin:0;color:var(--ink);background:var(--bg);font-family:Arial,Helvetica,sans-serif;line-height:1.55}h1,h2,h3{font-family:Arial,Helvetica,sans-serif}a{text-decoration:none;color:inherit}.wrap{width:min(1160px,calc(100% - 36px));margin:auto}.header{height:76px;position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}.nav{height:100%;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:10px;color:var(--n);font-weight:800}.brand b{color:var(--c)}.brand small{display:block;font-weight:500;font-size:11px;line-height:1.1}.brand-mark{font-size:18px;color:var(--c);font-weight:900}.menu{display:flex;gap:24px;align-items:center;font-size:14px;font-weight:700}.menu a:hover{color:var(--c)}.cta{background:var(--n);color:white!important;padding:10px 17px;border-radius:999px}.hamb{display:none;border:0;background:none;font-size:27px;color:var(--n)}
+.hero{position:relative;overflow:hidden;background:linear-gradient(135deg,#fff 0%,#fff 57%,#eef4ff);padding:70px 0 78px}.hero:after{content:"";position:absolute;width:520px;height:520px;border-radius:50%;right:-260px;top:-220px;background:radial-gradient(circle,rgba(241,102,78,.14),transparent 67%)}.hero-grid{position:relative;z-index:1;display:grid;grid-template-columns:1.05fr .75fr;gap:65px;align-items:center}.eyebrow{font-size:11px;letter-spacing:1.8px;font-weight:900;color:var(--n)}.kicker,.label{font-size:12px;letter-spacing:2px;font-weight:900;color:var(--c)}h1{font-size:clamp(52px,7vw,88px);line-height:.92;letter-spacing:-4px;margin:13px 0 24px;color:var(--g)}h1 span{color:var(--c)}.lead{font-size:19px;color:#55606f;max-width:620px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin:30px 0}.btn{display:inline-flex;align-items:center;gap:10px;padding:13px 20px;border-radius:999px;font-weight:800;transition:.2s}.btn:hover{transform:translateY(-2px);box-shadow:0 12px 24px rgba(7,31,82,.15)}.primary{background:var(--n);color:#fff}.outline{background:#fff;border:1px solid #d7dce5;color:var(--n)}.facts{display:flex;gap:26px}.facts div{border-left:2px solid var(--b);padding-left:11px}.facts div:nth-child(2){border-color:var(--c)}.facts div:nth-child(3){border-color:var(--g)}.facts b,.facts span{display:block}.facts b{font-size:13px;color:var(--n)}.facts span{font-size:11px;color:var(--mut)}.poster{background:#fff;padding:10px;border-radius:22px;box-shadow:0 20px 55px rgba(7,31,82,.14);max-width:390px;margin:auto;transform:rotate(1deg)}.poster img{width:100%;display:block;border-radius:14px}
+.notice{background:var(--n);color:#fff}.notice .wrap{min-height:52px;display:flex;align-items:center;gap:10px}.dot{width:8px;height:8px;background:var(--c);border-radius:50%}.notice p{font-size:13px;flex:1}.notice a{font-size:13px;font-weight:800}
+.section{padding:95px 0}.white{background:#fff}.label{margin-bottom:14px}h2{font-size:clamp(37px,5vw,60px);line-height:1.03;letter-spacing:-2.5px;color:var(--n);margin:0 0 22px}h2 em{font-style:normal;color:var(--c)}.intro-grid{display:grid;grid-template-columns:1.05fr 1fr;gap:75px}.copy{font-size:17px;color:#596473}.topics{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-top:55px}.topics div{padding:20px 14px;border-right:1px solid var(--line);font-size:13px;font-weight:800}.topics div:last-child{border:0}.topics span{display:block;color:var(--c);font-size:10px;margin-bottom:5px}
+.program{background:#f0f3f8}.head{display:flex;justify-content:space-between;gap:40px;align-items:end;margin-bottom:42px}.head>p{max-width:330px;color:var(--mut)}.timeline{max-width:950px}.session{display:grid;grid-template-columns:105px 10px 1fr;gap:20px;padding-bottom:22px}.time{text-align:right;color:var(--n);padding-top:5px}.time strong{font-size:25px}.time span{display:block;font-size:11px;color:var(--mut)}.rail{background:#d6dce6;border-radius:20px;position:relative}.rail:before{content:"";position:absolute;top:10px;left:-1px;width:12px;height:12px;border-radius:50%;background:var(--p);box-shadow:0 0 0 5px rgba(90,74,155,.12)}.teal .rail:before{background:var(--t)}.green .rail:before{background:var(--gr)}.coral .rail:before{background:var(--c)}.gold .rail:before{background:var(--g)}.card{background:#fff;border-radius:17px;padding:21px 24px;box-shadow:0 7px 25px rgba(7,31,82,.05)}.tag{font-size:10px;letter-spacing:1.3px;text-transform:uppercase;font-weight:900;color:var(--p)}.teal .tag{color:var(--t)}.green .tag{color:#669b48}.coral .tag{color:var(--c)}.gold .tag{color:#b88000}.card h3{font-size:20px;line-height:1.2;color:var(--n);margin:6px 0 9px}.card p{font-size:13px;color:var(--mut);margin:0}
+.speakers{background:#fff}.speaker-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.speaker{border:1px solid var(--line);border-radius:19px;overflow:hidden;background:#fff;box-shadow:0 6px 25px rgba(7,31,82,.05)}.photo{height:220px;display:grid;place-items:center;color:#fff;font-size:52px;font-weight:900;position:relative}.photo:after{content:"";position:absolute;width:170px;height:170px;border:1px solid rgba(255,255,255,.35);border-radius:50%}.purple{background:linear-gradient(135deg,#7565b7,#493b81)}.bluegreen{background:linear-gradient(135deg,#38aaa5,#08716e)}.lightgreen{background:linear-gradient(135deg,#acd77d,#639a45)}.coralbg{background:linear-gradient(135deg,#f68a73,#dc4e38)}.goldbg{background:linear-gradient(135deg,#f8cc54,#d89600)}.speaker-body{padding:20px}.speaker-body h3{color:var(--n);font-size:19px;line-height:1.2;margin:6px 0 8px}.speaker-body p{font-size:13px;color:var(--mut);min-height:42px}.more{border:0;background:none;padding:0;color:var(--n);font-weight:800;cursor:pointer}.note{margin-top:24px;background:#f3f5f9;padding:13px 15px;border-radius:11px;color:var(--mut);font-size:12px}
+.streaming{background:#f0f3f8}.stream-grid{display:grid;grid-template-columns:.72fr 1.28fr;gap:55px;align-items:center}.stream-grid p{color:var(--mut);font-size:17px}.video{aspect-ratio:16/9;background:#06142d;border-radius:20px;overflow:hidden;box-shadow:0 18px 45px rgba(7,31,82,.16)}.video iframe{width:100%;height:100%;border:0}.placeholder{height:100%;display:grid;place-items:center;align-content:center;text-align:center;color:#fff}.play{width:65px;height:65px;background:var(--c);border-radius:50%;display:grid;place-items:center;margin-bottom:10px}.placeholder span{color:#aab8cd;font-size:12px}.live{display:inline-block;color:var(--c);background:#fff;border-radius:7px;padding:6px 9px;font-size:10px;font-weight:900;margin-top:10px}
+.register{background:linear-gradient(120deg,#071f52,#123f7c);color:#fff;padding:88px 0}.reg-grid{display:grid;grid-template-columns:1fr 290px;gap:60px;align-items:center}.light{color:#82b7ff}.register h2{color:#fff;font-size:clamp(48px,6vw,76px)}.register h2 em{color:#f47b67}.register p{color:#d7e1ee;max-width:600px;font-size:17px}.qr{background:#fff;color:var(--n);border-radius:21px;padding:18px;text-align:center;box-shadow:0 18px 45px rgba(0,0,0,.2)}.qr img{width:200px;max-width:100%;display:block;margin:0 auto 9px}.qr strong,.qr small{display:block}.qr small{color:var(--mut)}
+.venue{background:#fff}.venue-grid{display:grid;grid-template-columns:1fr 370px;gap:65px;align-items:center}.venue p{color:var(--mut)}.venue-card{background:#f0f5ff;border:1px solid #d9e5f7;padding:29px;border-radius:19px}.pin{font-size:38px;color:var(--c)}.venue-card strong,.venue-card span,.venue-card a{display:block}.venue-card span{color:var(--mut);font-size:13px;margin:4px 0 18px}.venue-card a{color:var(--n);font-size:13px;font-weight:800}.closing{background:#fff;padding:70px 0}.closing-inner{border-top:1px solid var(--line);padding-top:55px;display:flex;justify-content:space-between;gap:30px;align-items:end}.footer{background:#fff;border-top:1px solid var(--line);padding-bottom:32px;text-align:center;color:var(--mut);font-size:12px}.footer img{width:min(1000px,100%);display:block;margin:auto}.footer p{margin:10px}.modal{display:none;position:fixed;inset:0;z-index:100;background:rgba(2,14,36,.72);place-items:center;padding:15px}.modal.open{display:grid}.modalbox{position:relative;background:#fff;width:min(560px,100%);border-radius:20px;padding:32px}.close{position:absolute;right:14px;top:12px;border:0;border-radius:50%;width:34px;height:34px;font-size:23px}.modalbox h2{font-size:34px}.modalbox p{color:var(--mut)}
+@media(max-width:900px){.hero-grid,.intro-grid,.stream-grid,.venue-grid{grid-template-columns:1fr}.hero-art{order:-1}.poster{max-width:320px}.speaker-grid{grid-template-columns:1fr 1fr}.topics{grid-template-columns:1fr 1fr}.reg-grid{grid-template-columns:1fr 260px}.head{display:block}.head>p{margin-top:0}}
+@media(max-width:680px){.wrap{width:calc(100% - 28px)}.header{height:68px}.hamb{display:block}.menu{display:none;position:absolute;top:68px;left:0;right:0;background:#fff;padding:10px 14px 17px;border-bottom:1px solid var(--line);box-shadow:0 15px 30px rgba(7,31,82,.08);flex-direction:column;gap:2px;align-items:stretch}.menu.open{display:flex}.menu a{padding:11px}.cta{text-align:center}.hero{padding:42px 0 55px}.hero-grid{gap:32px}.poster{max-width:270px}.facts{gap:13px;justify-content:space-between}.facts b{font-size:11px}.facts span{font-size:9px}.notice p{font-size:11px}.notice a{font-size:10px}.section{padding:68px 0}h2{letter-spacing:-1.5px}.topics{margin-top:35px}.topics div{font-size:11px;padding:15px 9px}.session{grid-template-columns:62px 8px 1fr;gap:11px}.time strong{font-size:19px}.card{padding:17px}.card h3{font-size:17px}.speaker-grid{grid-template-columns:1fr}.photo{height:205px}.reg-grid{grid-template-columns:1fr;gap:30px}.qr{max-width:255px;margin:auto}.closing-inner{display:block}.closing .btn{margin-top:10px}}
+</style></head><body>
+<header class="header"><div class="wrap nav"><a class="brand" href="#inicio"><span class="brand-mark">UAEH</span>·<span>Voces por la Salud Mental</b></span></a><button class="hamb" id="hamb">☰</button><nav class="menu" id="menu"><a href="#foro">El foro</a><a href="#programa">Programa</a><a href="#ponentes">Ponentes</a><a href="#transmision">Transmisión</a><a class="cta" href="#registro">Regístrate</a></nav></div></header>
 <main>
-  <section id="inicio" class="hero">
-    <div class="hero-copy">
-      <span class="eyebrow">FORO</span>
-      <h1>Voces por la<br><strong>Salud Mental</strong></h1>
-      <p class="lead">
-        Un espacio de diálogo, reflexión y participación para abordar temas
-        fundamentales de la salud mental desde distintas perspectivas.
-      </p>
-      <div class="hero-meta">
-        <div><strong>23 de octubre</strong><span>9:00 a.m. a 2:00 p.m.</span></div>
-        <div><strong>Auditorio Josefina García Quintanar</strong><span>Poliforum Carlos Martínez Balmori · Cd. del Conocimiento</span></div>
-      </div>
-      <a class="btn btn-primary" href="#registro">Regístrate al foro</a>
-    </div>
-    <div class="hero-poster">
-      <img src="programa.jpeg" alt="Cartel del Foro Voces por la Salud Mental">
-    </div>
-  </section>
-
-  <section class="intro section">
-    <div class="section-heading">
-      <span class="section-kicker">SOBRE EL FORO</span>
-      <h2>Un espacio para escuchar, dialogar y actuar</h2>
-    </div>
-    <div class="intro-grid">
-      <p>
-        <strong>Voces por la Salud Mental</strong> reúne especialistas y comunidad
-        universitaria para conversar sobre prevención del suicidio, atención al
-        abuso sexual, bienestar psicológico y el impacto de las nuevas tecnologías
-        en la salud mental.
-      </p>
-      <p>
-        La jornada busca promover una mirada integral, generar conciencia y
-        fortalecer herramientas para afrontar los retos emocionales de la vida
-        cotidiana, especialmente en los espacios universitarios y comunitarios.
-      </p>
-    </div>
-  </section>
-
-  <section id="programa" class="section program-section">
-    <div class="section-heading">
-      <span class="section-kicker">PROGRAMA</span>
-      <h2>Programación del foro</h2>
-      <p>Consulta los temas, horarios y especialistas que participarán.</p>
-    </div>
-
-    <div class="schedule">
-      <article class="schedule-item purple">
-        <div class="time">9:30<br><small>a.m.</small></div>
-        <div class="schedule-content">
-          <h3>Intervenciones comunitarias en riesgo suicida</h3>
-          <strong>Dr. Pavel Edén Arenas Castañeda</strong>
-          <span>Pte. “Ama Salud Mental” A.C.</span>
-        </div>
-      </article>
-
-      <article class="schedule-item teal">
-        <div class="time">10:30<br><small>a.m.</small></div>
-        <div class="schedule-content">
-          <h3>Modelo de atención al abuso sexual</h3>
-          <strong>Dra. Diana Tejeda Orozco</strong>
-          <span>Psic. especializada en el Hospital Psiquiátrico Infantil Dr. Juan N. Navarro</span>
-        </div>
-      </article>
-
-      <article class="schedule-item green">
-        <div class="time">11:30<br><small>a.m.</small></div>
-        <div class="schedule-content">
-          <h3>Dinámica vivencial y reflexiva: “Cuando la percepción cuenta su propia historia”</h3>
-          <strong>PICD. José Luis Ángeles Gómez</strong>
-          <span>Dir. Gral. CECOSAMÁ Pachuca</span>
-        </div>
-      </article>
-
-      <article class="schedule-item coral">
-        <div class="time">12:00<br><small>p.m.</small></div>
-        <div class="schedule-content">
-          <h3>El uso de las nuevas tecnologías en la salud mental</h3>
-          <strong>Dr. Cristian Molina Pizarro</strong>
-          <span>Investigador especializado en temas de salud mental · España</span>
-        </div>
-      </article>
-
-      <article class="schedule-item gold">
-        <div class="time">1:00<br><small>p.m.</small></div>
-        <div class="schedule-content">
-          <h3>Bienestar psicológico en universitarios: estrés, regulación emocional y recursos para afrontar la vida</h3>
-          <strong>Dra. Andrómeda Ivette Valencia Ortíz</strong>
-          <span>Investigadora y Jefa del Área Académica de Psicología UAEH</span>
-        </div>
-      </article>
-    </div>
-  </section>
-
-  <section id="ponentes" class="section speakers-section">
-    <div class="section-heading">
-      <span class="section-kicker">PONENTES</span>
-      <h2>Conoce a quienes compartirán su experiencia</h2>
-      <p>En este apartado puedes incorporar la fotografía y reseña completa de cada ponente.</p>
-    </div>
-
-    <div class="speaker-grid">
-      <article class="speaker-card">
-        <div class="speaker-photo">FOTOGRAFÍA<br>DEL PONENTE</div>
-        <div class="speaker-body">
-          <span class="speaker-tag">Riesgo suicida</span>
-          <h3>Dr. Pavel Edén Arenas Castañeda</h3>
-          <p class="role">Pte. “Ama Salud Mental” A.C.</p>
-          <p>Espacio destinado para la reseña curricular y profesional del ponente.</p>
-        </div>
-      </article>
-
-      <article class="speaker-card">
-        <div class="speaker-photo">FOTOGRAFÍA<br>DE LA PONENTE</div>
-        <div class="speaker-body">
-          <span class="speaker-tag">Abuso sexual</span>
-          <h3>Dra. Diana Tejeda Orozco</h3>
-          <p class="role">Psic. especializada en el Hospital Psiquiátrico Infantil Dr. Juan N. Navarro</p>
-          <p>Espacio destinado para la reseña curricular y profesional de la ponente.</p>
-        </div>
-      </article>
-
-      <article class="speaker-card">
-        <div class="speaker-photo">FOTOGRAFÍA<br>DEL PONENTE</div>
-        <div class="speaker-body">
-          <span class="speaker-tag">Dinámica vivencial</span>
-          <h3>PICD. José Luis Ángeles Gómez</h3>
-          <p class="role">Dir. Gral. CECOSAMÁ Pachuca</p>
-          <p>Espacio destinado para la reseña curricular y profesional del ponente.</p>
-        </div>
-      </article>
-
-      <article class="speaker-card">
-        <div class="speaker-photo">FOTOGRAFÍA<br>DEL PONENTE</div>
-        <div class="speaker-body">
-          <span class="speaker-tag">Tecnología y salud mental</span>
-          <h3>Dr. Cristian Molina Pizarro</h3>
-          <p class="role">Investigador especializado en temas de salud mental · España</p>
-          <p>Espacio destinado para la reseña curricular y profesional del ponente.</p>
-        </div>
-      </article>
-
-      <article class="speaker-card">
-        <div class="speaker-photo">FOTOGRAFÍA<br>DE LA PONENTE</div>
-        <div class="speaker-body">
-          <span class="speaker-tag">Bienestar universitario</span>
-          <h3>Dra. Andrómeda Ivette Valencia Ortíz</h3>
-          <p class="role">Investigadora y Jefa del Área Académica de Psicología UAEH</p>
-          <p>Espacio destinado para la reseña curricular y profesional de la ponente.</p>
-        </div>
-      </article>
-    </div>
-  </section>
-
-  <section id="streaming" class="section streaming-section">
-    <div class="section-heading">
-      <span class="section-kicker">TRANSMISIÓN EN VIVO</span>
-      <h2>Vive el foro en línea</h2>
-      <p>El reproductor se activará cuando se agregue el enlace de la transmisión.</p>
-    </div>
-    <div class="video-wrap">
-      <div id="video-placeholder" class="video-placeholder">
-        <div class="play">▶</div>
-        <h3>Streaming del Foro</h3>
-        <p>Próximamente podrás ver aquí la transmisión en vivo.</p>
-      </div>
-      <iframe id="stream-frame" title="Transmisión en vivo del Foro Voces por la Salud Mental"
-              allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen hidden></iframe>
-    </div>
-  </section>
-
-  <section id="registro" class="register-section">
-    <div class="register-copy">
-      <span class="section-kicker">PARTICIPA</span>
-      <h2>Registra aquí tu asistencia</h2>
-      <p>Escanea el código QR o utiliza el botón para acceder al formulario de registro.</p>
-      <a class="btn btn-light" href="https://cutt.ly/foroVoces" target="_blank" rel="noopener">Abrir registro</a>
-    </div>
-    <div class="qr-card">
-      <img src="qr-registro.png" alt="Código QR para registrarse al Foro Voces por la Salud Mental">
-      <strong>Registra aquí</strong>
-      <span>cutt.ly/foroVoces</span>
-    </div>
-  </section>
-
-  <section class="location section">
-    <div>
-      <span class="section-kicker">UBICACIÓN</span>
-      <h2>Te esperamos</h2>
-      <p><strong>23 de octubre · 9:00 a.m. a 2:00 p.m.</strong></p>
-      <p>Auditorio Josefina García Quintanar<br>
-      Poliforum Carlos Martínez Balmori<br>
-      Ciudad del Conocimiento, Pachuca–Tulancingo Km. 4.5, Carboneras, 42184 Hgo.</p>
-    </div>
-    <div class="location-card">
-      <div class="location-pin">⌖</div>
-      <strong>Ciudad del Conocimiento</strong>
-      <span>Pachuca–Tulancingo, Hidalgo</span>
-    </div>
-  </section>
-</main>
-
-<footer class="footer">
-  <img src="logos-footer.jpg" alt="Logos institucionales del foro">
-  <p>Foro “Voces por la Salud Mental” · Universidad Autónoma del Estado de Hidalgo</p>
-  <p>Dirección de Servicio Social, Prácticas Profesionales y Vinculación Laboral</p>
-</footer>
-
-<script src="script.js"></script>
-</body>
-</html>
+<section class="hero" id="inicio"><div class="wrap hero-grid"><div><div class="eyebrow">UNIVERSIDAD AUTÓNOMA DEL ESTADO DE HIDALGO</div><div class="kicker">FORO · 23 DE OCTUBRE</div><h1>Voces por la<br><span>Salud Mental</span></h1><p class="lead">Un encuentro para escuchar, reflexionar y generar conversación en torno a los retos actuales de la salud mental.</p><div class="actions"><a class="btn primary" href="#registro">Regístrate aquí ↗</a><a class="btn outline" href="#programa">Ver programación</a></div><div class="facts"><div><b>23 OCT</b><span>Fecha</span></div><div><b>9:00 — 14:00</b><span>Horario</span></div><div><b>Pachuca, Hgo.</b><span>Sede</span></div></div></div><div class="hero-art"><div class="poster"><img src="programa.jpg" alt="Cartel oficial del Foro Voces por la Salud Mental"></div></div></div></section>
+<div class="notice"><div class="wrap"><i class="dot"></i><p><b>Voces por la Salud Mental</b> · Un espacio universitario para hablar de lo que importa.</p><a href="#registro">Regístrate ahora →</a></div></div>
+<section class="section white" id="foro"><div class="wrap"><div class="label">01 · EL FORO</div><div class="intro-grid"><div><h2>Hablar de salud mental también es <em>cuidarnos.</em></h2></div><div class="copy"><p>“Voces por la Salud Mental” es un foro de diálogo y reflexión que reúne especialistas para abordar situaciones que impactan nuestra vida personal, universitaria y comunitaria.</p><p>Se abordarán <b>riesgo suicida, abuso sexual, nuevas tecnologías, estrés y bienestar psicológico</b>, promoviendo una conversación informada y sensible.</p></div></div><div class="topics"><div><span>01</span>Prevención del suicidio</div><div><span>02</span>Abuso sexual</div><div><span>03</span>Salud mental y tecnología</div><div><span>04</span>Bienestar universitario</div></div></div></section>
+<section class="section program" id="programa"><div class="wrap"><div class="head"><div><div class="label">02 · PROGRAMA</div><h2>Una jornada para <em>escuchar y aprender.</em></h2></div><p>Consulta horarios, temas y especialistas de cada participación.</p></div><div class="timeline">
+<div class="session"><div class="time"><strong>09:30</strong><span>a.m.</span></div><div class="rail"></div><div class="card"><span class="tag">Riesgo suicida</span><h3>Intervenciones comunitarias en riesgo suicida</h3><p><b>Dr. Pavel Edén Arenas Castañeda</b><br>Pte. “Ama Salud Mental” A.C.</p></div></div>
+<div class="session teal"><div class="time"><strong>10:30</strong><span>a.m.</span></div><div class="rail"></div><div class="card"><span class="tag">Abuso sexual</span><h3>Modelo de atención al abuso sexual</h3><p><b>Dra. Diana Tejeda Orozco</b><br>Psic. especializada en el Hospital Psiquiátrico Infantil Dr. Juan N. Navarro.</p></div></div>
+<div class="session green"><div class="time"><strong>11:30</strong><span>a.m.</span></div><div class="rail"></div><div class="card"><span class="tag">Experiencia vivencial</span><h3>Dinámica vivencial y reflexiva: “Cuando la percepción cuenta su propia historia”</h3><p><b>PICD. José Luis Ángeles Gómez</b><br>Dir. Gral. CECOSAMÁ Pachuca.</p></div></div>
+<div class="session coral"><div class="time"><strong>12:00</strong><span>p.m.</span></div><div class="rail"></div><div class="card"><span class="tag">Tecnología</span><h3>El uso de las nuevas tecnologías en la salud mental</h3><p><b>Dr. Cristian Molina Pizarro</b><br>Investigador especializado en temas de salud mental · España.</p></div></div>
+<div class="session gold"><div class="time"><strong>13:00</strong><span>p.m.</span></div><div class="rail"></div><div class="card"><span class="tag">Bienestar universitario</span><h3>Bienestar psicológico en universitarios: estrés, regulación emocional y recursos para afrontar la vida</h3><p><b>Dra. Andrómeda Ivette Valencia Ortíz</b><br>Investigadora y Jefa del Área Académica de Psicología UAEH.</p></div></div>
+</div></div></section>
+<section class="section speakers white" id="ponentes"><div class="wrap"><div class="label">03 · PONENTES</div><div class="head"><div><h2>Voces con experiencia, <em>ideas que transforman.</em></h2></div><p>Conoce a las y los especialistas participantes.</p></div><div class="speaker-grid">
+<article class="speaker"><div class="photo purple">PA</div><div class="speaker-body"><span class="tag">Riesgo suicida</span><h3>Dr. Pavel Edén Arenas Castañeda</h3><p>Pte. “Ama Salud Mental” A.C.</p><button class="more" data-id="pavel">Ver reseña →</button></div></article>
+<article class="speaker"><div class="photo bluegreen">DT</div><div class="speaker-body"><span class="tag">Abuso sexual</span><h3>Dra. Diana Tejeda Orozco</h3><p>Psic. especializada en el Hospital Psiquiátrico Infantil Dr. Juan N. Navarro.</p><button class="more" data-id="diana">Ver reseña →</button></div></article>
+<article class="speaker"><div class="photo lightgreen">JA</div><div class="speaker-body"><span class="tag">Dinámica vivencial</span><h3>PICD. José Luis Ángeles Gómez</h3><p>Dir. Gral. CECOSAMÁ Pachuca.</p><button class="more" data-id="jose">Ver reseña →</button></div></article>
+<article class="speaker"><div class="photo coralbg">CM</div><div class="speaker-body"><span class="tag">Tecnología</span><h3>Dr. Cristian Molina Pizarro</h3><p>Investigador especializado en temas de salud mental · España.</p><button class="more" data-id="cristian">Ver reseña →</button></div></article>
+<article class="speaker"><div class="photo goldbg">AV</div><div class="speaker-body"><span class="tag">Bienestar universitario</span><h3>Dra. Andrómeda Ivette Valencia Ortíz</h3><p>Investigadora y Jefa del Área Académica de Psicología UAEH.</p><button class="more" data-id="andromeda">Ver reseña →</button></div></article>
+</div><div class="note">Las tarjetas están preparadas para sustituir las iniciales por las fotografías oficiales y completar las reseñas curriculares.</div></div></section>
+<section class="section streaming" id="transmision"><div class="wrap"><div class="label">04 · TRANSMISIÓN</div><div class="stream-grid"><div><h2>También puedes vivirlo <em>en línea.</em></h2><p>El reproductor se activará aquí cuando se agregue el enlace de la transmisión.</p><span class="live">● TRANSMISIÓN EN VIVO</span></div><div class="video"><div class="placeholder" id="placeholder"><div class="play">▶</div><b>Transmisión del foro</b><span>Próximamente</span></div><iframe id="stream" allow="autoplay;encrypted-media;picture-in-picture" allowfullscreen hidden></iframe></div></div></div></section>
+<section class="register" id="registro"><div class="wrap reg-grid"><div><div class="label light">05 · REGISTRO</div><h2>Tu voz también<br><em>cuenta.</em></h2><p>Regístrate para participar en el Foro “Voces por la Salud Mental”. Escanea el código QR o entra directamente al formulario.</p><a class="btn" style="background:#fff;color:#071f52" href="https://cutt.ly/foroVoces" target="_blank">Abrir formulario de registro ↗</a></div><div class="qr"><div class="label">REGISTRA AQUÍ</div><img src="qr-registro.png" alt="Código QR para registrarse al foro"><strong>Escanea para registrarte</strong><small>cutt.ly/foroVoces</small></div></div></section>
+<section class="section venue white"><div class="wrap venue-grid"><div><div class="label">06 · SEDE</div><h2>Nos vemos en<br><em>Ciudad del Conocimiento.</em></h2><p><b>23 de octubre · 9:00 a.m. a 2:00 p.m.</b></p><p>Auditorio Josefina García Quintanar<br>Poliforum Carlos Martínez Balmori<br>Ciudad del Conocimiento, Pachuca–Tulancingo Km. 4.5, Carboneras, 42184 Hgo.</p></div><div class="venue-card"><div class="pin">⌖</div><strong>Auditorio Josefina García Quintanar</strong><span>Poliforum Carlos Martínez Balmori</span><a href="https://www.google.com/maps/search/?api=1&query=Poliforum+Carlos+Martinez+Balmori+Pachuca+Hidalgo" target="_blank">Ver ubicación en Google Maps ↗</a></div></div></section>
+<section class="closing"><div class="wrap closing-inner"><div><div class="label">VOCES POR LA SALUD MENTAL</div><h2>Hablar también es una forma de <em>cuidarnos.</em></h2></div><a class="btn primary" href="#registro">Regístrate al foro ↗</a></div></section>
+</main><footer class="footer"><div class="wrap"><img src="logos-institucionales.jpg" alt="Logos institucionales"><p>Universidad Autónoma del Estado de Hidalgo · Dirección de Servicio Social, Prácticas Profesionales y Vinculación Laboral</p><p>Foro “Voces por la Salud Mental” · 23 de octubre</p></div></footer>
+<div class="modal" id="modal"><div class="modalbox"><button class="close" id="close">×</button><div class="label" id="mtag"></div><h2 id="mtitle"></h2><p id="mtext"></p><div style="background:#f3f5f9;padding:13px;border-radius:10px;color:#687383;font-size:12px">Aquí se puede colocar la fotografía oficial y la reseña curricular completa del ponente.</div></div></div>
+<script>
+const menu=document.getElementById('menu'),hamb=document.getElementById('hamb');hamb.onclick=()=>{menu.classList.toggle('open')};document.querySelectorAll('.menu a').forEach(a=>a.onclick=()=>menu.classList.remove('open'));
+const STREAM_URL='';function yt(u){try{let x=new URL(u),id=x.searchParams.get('v');if(x.hostname.includes('youtu.be'))return'https://www.youtube.com/embed/'+x.pathname.slice(1);if(id)return'https://www.youtube.com/embed/'+id;let m=x.pathname.match(/\/live\/([^/]+)/);return m?'https://www.youtube.com/embed/'+m[1]:''}catch(e){return''}}const emb=yt(STREAM_URL);if(emb){document.getElementById('stream').src=emb;document.getElementById('stream').hidden=false;document.getElementById('placeholder').hidden=true}
+const data={pavel:['Riesgo suicida','Dr. Pavel Edén Arenas Castañeda','Pte. “Ama Salud Mental” A.C.'],diana:['Abuso sexual','Dra. Diana Tejeda Orozco','Psic. especializada en el Hospital Psiquiátrico Infantil Dr. Juan N. Navarro.'],jose:['Dinámica vivencial','PICD. José Luis Ángeles Gómez','Dir. Gral. CECOSAMÁ Pachuca.'],cristian:['Tecnología y salud mental','Dr. Cristian Molina Pizarro','Investigador especializado en temas de salud mental · España.'],andromeda:['Bienestar universitario','Dra. Andrómeda Ivette Valencia Ortíz','Investigadora y Jefa del Área Académica de Psicología UAEH.']};const modal=document.getElementById('modal');document.querySelectorAll('[data-id]').forEach(b=>b.onclick=()=>{let d=data[b.dataset.id];document.getElementById('mtag').textContent=d[0];document.getElementById('mtitle').textContent=d[1];document.getElementById('mtext').textContent=d[2]+' Aquí se incorporará la reseña curricular oficial.';modal.classList.add('open')});document.getElementById('close').onclick=()=>modal.classList.remove('open');modal.onclick=e=>{if(e.target===modal)modal.classList.remove('open')};document.onkeydown=e=>{if(e.key==='Escape')modal.classList.remove('open')};
+</script></body></html>
