@@ -12,6 +12,103 @@
   --paper:#fbfbfd;
   --line:#e8eaf0;
 }
+.header {
+  height: 78px;
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(12px);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid #e5e8ef;
+}
+
+.wrap {
+  width: min(1160px, calc(100% - 40px));
+  margin: auto;
+}
+
+.nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* LOGO + NOMBRE DEL FORO */
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #071f52;
+  text-decoration: none;
+}
+
+.brand-logo {
+  width: 105px;
+  height: auto;
+  max-height: 55px;
+  object-fit: contain;
+}
+
+.brand-divider {
+  color: #d5d9e0;
+  font-size: 28px;
+  font-weight: 300;
+}
+
+.brand-text {
+  font-family: "Manrope", Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.15;
+  color: #071f52;
+  font-weight: 600;
+}
+
+.brand-text strong {
+  font-size: 14px;
+  color: #f1664e;
+}
+
+/* MENÚ */
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #071f52;
+  font-size: 14px;
+  font-weight: 700;
+  transition: .2s ease;
+}
+
+.menu a:hover {
+  color: #f1664e;
+}
+
+.menu .cta {
+  background: #071f52;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 30px;
+}
+
+.menu .cta:hover {
+  background: #f1664e;
+  color: white;
+}
+
+/* BOTÓN MÓVIL */
+.hamb {
+  display: none;
+  border: none;
+  background: transparent;
+  color: #071f52;
+  font-size: 28px;
+  cursor: pointer;
+}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;color:var(--ink);background:var(--paper);line-height:1.55}
