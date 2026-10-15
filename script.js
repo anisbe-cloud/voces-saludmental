@@ -82,7 +82,7 @@ const reseñasPonentes = {
     nombre: "PICD. José Luis Ángeles Gómez",
     cargo: "Dir. Gral. CECOSAMÁ Pachuca",
     tema: "Dinámica vivencial",
-    foto: "fotospanelistas/drjoseluisangeles.png",
+    foto: "drjoseluisangeles.png",
     parrafos: [
       `Médico Cirujano egresado de la Universidad Autónoma del
       Estado de Hidalgo (UAEH), con una sólida trayectoria
