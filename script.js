@@ -38,7 +38,7 @@ const reseñasPonentes = {
     nombre: "Dr. Pavel Edén Arenas Castañeda",
     cargo: "Presidente de “Ama Salud Mental” A.C.",
     tema: "Riesgo suicida",
-    foto: "fotospanelistas/dr.paveleden.jpg",
+    foto: "dr.paveleden.jpg",
     parrafos: [
       `Médico Cirujano egresado de la Universidad Nacional Autónoma de México (UNAM), especialista en Psiquiatría
        por el Hospital Fray Bernardino Álvarez y en Psiquiatría Infantil y de la Adolescencia por el Hospital 
@@ -60,7 +60,7 @@ const reseñasPonentes = {
     nombre: "Dra. Diana Iris Tejadilla Orozco",
     cargo: "Psic. especializada en el Hospital Psiquiátrico Infantil Dr. Juan N. Navarro",
     tema: "Abuso sexual",
-    foto: "fotospanelistas/dianatejadilla.jpeg",
+    foto: "dianatejadilla.jpeg",
     parrafos: [
       `Doctora en Alta Dirección en Establecimientos de Salud, cuenta con una maestría en Ciencias, 
       con especialidad en Neurobiología, por el Instituto de Neurobiología de la Universidad Nacional 
