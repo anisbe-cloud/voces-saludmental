@@ -132,7 +132,7 @@ const reseñasPonentes = {
     nombre: "Dr. Cristian Molina Pizarro",
     cargo: "Investigador especializado en temas de salud mental · España",
     tema: "Tecnología y salud mental",
-    foto: "fotospanelistas/drcristianmolina.jpg",
+    foto: "drcristianmolina.jpg",
     parrafos: [
       `Es médico especialista en Psiquiatría, con experiencia clínica 
       en el Hospital Virgen de los Lirios y en el Centro de Salud Mental (CSM) 
@@ -169,7 +169,7 @@ const reseñasPonentes = {
     nombre: "Dra. Andrómeda Ivette Valencia Ortíz",
     cargo: "Investigadora y Jefa del Área Académica de Psicología UAEH.",
     tema: "Bienestar universitario",
-    foto: "fotospanelistas/andromeda-valencia.jpg",
+    foto: "andromeda-valencia.jpg",
     parrafos: [
       `Licenciada en Psicología y doctora en Psicología de la Salud por la 
       Universidad Nacional Autónoma de México (UNAM), con formación especializada 
